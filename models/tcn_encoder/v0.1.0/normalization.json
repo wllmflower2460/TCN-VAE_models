@@ -1,0 +1,31 @@
+{
+  "version": "v0.1.0",
+  "channel_order": ["ax","ay","az","gx","gy","gz","mx","my","mz"],
+  "channel_mapping": {
+    "accelerometer": [0, 1, 2],
+    "gyroscope": [3, 4, 5], 
+    "magnetometer": [6, 7, 8]
+  },
+  "normalization": {
+    "method": "z_score",
+    "per_channel": true,
+    "zscore_mean": [
+      0.0, 0.0, 9.8,
+      0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0
+    ],
+    "zscore_std": [
+      1.0, 1.0, 1.0,
+      1.0, 1.0, 1.0,
+      1.0, 1.0, 1.0
+    ]
+  },
+  "units": {
+    "accelerometer": "m/s²",
+    "gyroscope": "rad/s",
+    "magnetometer": "µT"
+  },
+  "sampling_rate_hz": 100,
+  "window_size": 100,
+  "notes": "Normalization parameters must match exactly during ONNX export and Hailo compilation for inference parity"
+}
