@@ -1,0 +1,65 @@
+{
+  "model_name": "baseline",
+  "optimal_clusters": 3,
+  "silhouette_score": 0.26987895369529724,
+  "total_samples": 500,
+  "latent_dimension": 64,
+  "cluster_sizes": {
+    "0": 109,
+    "1": 155,
+    "2": 236
+  },
+  "behavioral_motifs": {
+    "cluster_0": {
+      "size": 109,
+      "dominant_behavior": 4,
+      "purity": 0.1743119266055046,
+      "behavior_distribution": {
+        "0": 5,
+        "1": 13,
+        "2": 9,
+        "3": 13,
+        "4": 19,
+        "5": 13,
+        "6": 12,
+        "7": 7,
+        "8": 6,
+        "9": 12
+      }
+    },
+    "cluster_1": {
+      "size": 155,
+      "dominant_behavior": 0,
+      "purity": 0.12903225806451613,
+      "behavior_distribution": {
+        "0": 20,
+        "1": 9,
+        "2": 20,
+        "3": 15,
+        "4": 15,
+        "5": 16,
+        "6": 13,
+        "7": 14,
+        "8": 17,
+        "9": 16
+      }
+    },
+    "cluster_2": {
+      "size": 236,
+      "dominant_behavior": 1,
+      "purity": 0.13135593220338984,
+      "behavior_distribution": {
+        "0": 21,
+        "1": 31,
+        "2": 29,
+        "3": 29,
+        "4": 18,
+        "5": 26,
+        "6": 22,
+        "7": 17,
+        "8": 19,
+        "9": 24
+      }
+    }
+  }
+}

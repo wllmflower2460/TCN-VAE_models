@@ -1,0 +1,14 @@
+{
+  "analysis_timestamp": "2025-09-06T00:43:00.099789",
+  "models_analyzed": [
+    "baseline"
+  ],
+  "comparative_results": {
+    "baseline": {
+      "optimal_clusters": 3,
+      "silhouette_score": 0.26987895369529724,
+      "feature_samples": 500,
+      "latent_dimension": 64
+    }
+  }
+}
